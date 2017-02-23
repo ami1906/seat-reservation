@@ -1,0 +1,33 @@
+td,.seat__info__available__box,.seat__info__filled__box,.seat__info__selected__box{
+	height:40px;
+	width:40px;
+}
+.seat__info__available__box,.seat__info__filled__box,.seat__info__selected__box{
+	display:block;
+	margin: auto;
+}
+td{
+	margin:20px;
+}
+.rows,.seat__info__filled__box{
+	background-color: red;
+}
+.available,.seat__info__available__box{
+	background-color: green;
+}
+.selected,.seat__info__selected__box{
+	background-color: orange;
+}
+.container,.seat__info{
+	margin: auto;
+    width: 1280px;
+}
+.seat__info{
+	padding:40px;
+}
+table{
+	margin:auto;
+}
+.seat__info__row{
+	text-align: center;
+}
