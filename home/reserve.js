@@ -74,6 +74,9 @@ SeatReservation.view =  function(ctrl)
 		]),
 		m("table",[
 			m("tbody",{onclick:ctrl.selectSeat/*event delaged to parent*/},[
+				m("tr",[
+					m("td.tab",{colspan:SeatReservation.vm.cols()},'PICK YOUR SEAT(S)')
+				]),
 				SeatReservation.vm.seats().map(function(row){
 					return[
 						m("tr",[

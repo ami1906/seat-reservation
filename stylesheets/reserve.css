@@ -31,3 +31,7 @@ table{
 .seat__info__row{
 	text-align: center;
 }
+.tab{
+	color: red;
+    text-decoration: underline;
+}
