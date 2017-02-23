@@ -4,7 +4,7 @@ td,.seat__info__available__box,.seat__info__filled__box,.seat__info__selected__b
 }
 .seat__info__available__box,.seat__info__filled__box,.seat__info__selected__box{
 	display:block;
-	margin: auto;
+	margin: 5px auto;
 }
 td{
 	margin:20px;
